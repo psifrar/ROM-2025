@@ -1,0 +1,378 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13203,        370]
+NotebookOptionsPosition[     10799,        324]
+NotebookOutlinePosition[     11196,        340]
+CellTagsIndexPosition[     11153,        337]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Vaje 6", "Title",
+ CellChangeTimes->{{3.952657981559598*^9, 
+  3.952658002721402*^9}},ExpressionUUID->"9cab3877-f656-4f8c-a19d-\
+96493344bbee"],
+
+Cell["3. 4. 2025", "Text",
+ CellChangeTimes->{{3.9526580077079144`*^9, 
+  3.952658010422195*^9}},ExpressionUUID->"bcdca604-445b-498b-b243-\
+f04f53bb0b1d"],
+
+Cell[CellGroupData[{
+
+Cell["1. Naloga", "Section",
+ CellChangeTimes->{{3.952658175616338*^9, 
+  3.952658196616678*^9}},ExpressionUUID->"a304b859-6585-4a64-80cc-\
+431d875249e1"],
+
+Cell[TextData[{
+ "a) Dana je funkcija ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["f", "TI"], 
+         RowBox[{"(", 
+           RowBox[{
+             StyleBox["x", "TI"], ",", 
+             StyleBox["y", "TI"]}], ")"}], "\[LongEqual]"}], TraditionalForm],
+      "errors" -> {}, "input" -> "f(x, y)=", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "e93c2355-dc7d-47fd-bcb3-19f7559680e8"],
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SuperscriptBox[
+          StyleBox["x", "TI"], "3"], "+", 
+         SuperscriptBox[
+          StyleBox["y", "TI"], "3"], "-", "3", 
+         StyleBox["x", "TI"], 
+         StyleBox["y", "TI"]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "x^3+y^3-3xy", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "d9798b55-4b6a-4367-8084-0c61e779631d"],
+ ". Definirajte funkcijo dveh spremenljivk."
+}], "Text",
+ CellChangeTimes->{{3.952658199968557*^9, 3.952658241063409*^9}, {
+  3.952658273288476*^9, 3.952658308325663*^9}, {3.9526583627085123`*^9, 
+  3.952658407553735*^9}},ExpressionUUID->"62462820-7688-4b06-909a-\
+d3997a71fa9c"],
+
+Cell["\<\
+b) Izra\[CHacek]unajte gradient funkcije (par, kjer je na prvem mestu odvod \
+funkcije po x in na drugem mestu odvod funkcije po y). Kdaj je gradient enak \
+0?\
+\>", "Text",
+ CellChangeTimes->{{3.95265831047186*^9, 3.952658355500422*^9}, {
+  3.9526584155835657`*^9, 
+  3.95265842254725*^9}},ExpressionUUID->"a3a12d39-a0c0-406f-a2b3-\
+634c8599993e"],
+
+Cell[TextData[{
+ "c) Definirajte Hessejevo matriko za funkcijo ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       StyleBox["f", "TI"], TraditionalForm], "errors" -> {}, "input" -> "f", 
+     "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "65cf161e-b21d-4e48-b01d-3d0dab75211f"],
+ " in ugotovite, ali je v to\[CHacek]ki, kjer je gradient funkcije enak 0, \
+dose\[ZHacek]en lokalni ekstrem."
+}], "Text",
+ CellChangeTimes->{{3.952658426474963*^9, 
+  3.952658539540227*^9}},ExpressionUUID->"b49351b0-1fe4-4b5e-b1a8-\
+b42d0325091c"],
+
+Cell[TextData[{
+ "d) Nari\[SHacek]ite nivojnico ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["f", "TI"], 
+         RowBox[{"(", 
+           RowBox[{
+             StyleBox["x", "TI"], ",", 
+             StyleBox["y", "TI"]}], ")"}], "\[LongEqual]", 
+         StyleBox["a", "TI"]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "f(x,y)=a", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "b946717c-b648-40ff-873f-388852d27d9e"],
+ " in ozna\[CHacek]ite kriti\[CHacek]ne to\[CHacek]ke. Vrednost paramtera ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       StyleBox["a", "TI"], TraditionalForm], "errors" -> {}, "input" -> "a", 
+     "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "fd73d327-4d25-4a22-b1da-53d027d86b4b"],
+ " naj bo mo\[CHacek] spreminjati. Nari\[SHacek]ite tudi graf funkcije f in \
+ozna\[CHacek]ite lokalni minimum."
+}], "Text",
+ CellChangeTimes->{{3.952658571650731*^9, 3.952658661819962*^9}, {
+  3.952661454034529*^9, 3.95266149589169*^9}, {3.952662204049582*^9, 
+  3.952662221510189*^9}},ExpressionUUID->"4f659e49-f47e-4377-9daa-\
+e4b8bf206980"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. Naloga", "Section",
+ CellChangeTimes->{{3.952658686783333*^9, 
+  3.952658688810295*^9}},ExpressionUUID->"e46c2761-ac13-4bbe-bd5d-\
+ccc04e24d65e"],
+
+Cell[TextData[{
+ "Dana je ena\[CHacek]ba ploskve ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SuperscriptBox[
+          StyleBox["x", "TI"], "2"], "+", 
+         SuperscriptBox[
+          StyleBox["y", "TI"], "2"], "-", 
+         SuperscriptBox[
+          StyleBox["z", "TI"], "3"], "\[LongEqual]", "1"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "x^2+y^2-z^3=1", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "8a6ee087-16b6-4946-9e3f-008e2a625f69"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.952658747254744*^9, 
+  3.952658803779004*^9}},ExpressionUUID->"73525f9b-87a9-41ca-adbe-\
+e87cee0a8bfc"],
+
+Cell["a) Poi\[SHacek]\[CHacek]ite prece\[CHacek]i\[SHacek]\[CHacek]a te \
+ploskve s koordinatnimi ravninami.", "Text",
+ CellChangeTimes->{{3.9526588057043123`*^9, 
+  3.9526588316962357`*^9}},ExpressionUUID->"c986ba4b-8898-4093-835e-\
+26b30f6ffe4a"],
+
+Cell["b) Nari\[SHacek]ite ploskev v 3D.", "Text",
+ CellChangeTimes->{{3.9526588344116983`*^9, 
+  3.952658854192623*^9}},ExpressionUUID->"b18c7f28-3772-4841-a276-\
+49dcdf465bb5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. Naloga", "Section",
+ CellChangeTimes->{{3.952658872887321*^9, 
+  3.952658874670026*^9}},ExpressionUUID->"03211965-fe56-4593-9b4f-\
+bd96f7fa66b2"],
+
+Cell[TextData[{
+ "Dana je funkcija ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["f", "TI"], 
+         RowBox[{"(", 
+           StyleBox["x", "TI"], ")"}], "\[LongEqual]", 
+         SuperscriptBox[
+          StyleBox["e", "TI"], 
+          StyleBox["x", "TI"]], "*", "cos", 
+         RowBox[{"(", 
+           SuperscriptBox[
+            StyleBox["x", "TI"], "3"], ")"}]}], TraditionalForm], 
+     "errors" -> {}, "input" -> "f(x) = e^x*\\cos(x^3)", "state" -> "Boxes"|>,
+    
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "dae4cd6f-0543-4029-8d6d-3efeede75f37"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.952658880539879*^9, 3.95265889528627*^9}, 
+   3.952658999147184*^9},ExpressionUUID->"e5e4d380-22a9-4834-ae40-\
+9b72ae66391c"],
+
+Cell["\<\
+a) Razvijte funkcijo v Taylorjev polinom stopnje 6 okoli to\[CHacek]ke 0.\
+\>", "Text",
+ CellChangeTimes->{{3.952659005272785*^9, 
+  3.952659034057413*^9}},ExpressionUUID->"7fd42c72-c7fc-4a10-a7e3-\
+ce904c48e4de"],
+
+Cell["\<\
+b) Nari\[SHacek]ite originalno funkcijo in njeno aproksimacijo na intervalu \
+[-2, 2].\
+\>", "Text",
+ CellChangeTimes->{{3.952659036664928*^9, 
+  3.9526590814867687`*^9}},ExpressionUUID->"aa037729-4f22-49cc-9979-\
+3f84c9f5e145"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. Naloga", "Section",
+ CellChangeTimes->{{3.952659208964739*^9, 
+  3.95265921062638*^9}},ExpressionUUID->"6c179239-79d0-4c5f-abb4-\
+17065603a885"],
+
+Cell[TextData[{
+ "a) Aproksimiraj ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{"cos", "(", "0.1", ")"}], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\cos(0.1)", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "14c69a7b-ba20-4e38-8b10-58d9d8c96684"],
+ " s Taylorjevim polinomom stopnje 2 okoli x=0 in oceni napako."
+}], "Text",
+ CellChangeTimes->{{3.952659216491087*^9, 
+  3.952659257038291*^9}},ExpressionUUID->"33f9bdce-c1dd-4b04-88a7-\
+839810ddfc71"],
+
+Cell[TextData[{
+ "b) Uporabi Taylorjev polinom stopnje 3 za izra\[CHacek]un pribli\[ZHacek]ka \
+",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{"ln", "(", "1.1", ")"}], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\ln(1.1)", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "933b4362-486b-401f-982a-1de9af3ea213"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.952659270994422*^9, 3.95265927272936*^9}, {
+  3.952659329139339*^9, 
+  3.952659377489624*^9}},ExpressionUUID->"ceb9fb67-e1a3-4474-afea-\
+a87f37ef6497"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5. Naloga", "Section",
+ CellChangeTimes->{{3.9526593991281776`*^9, 
+  3.952659400969816*^9}},ExpressionUUID->"7e80d9ec-5998-4e1e-b31b-\
+c2d5543c1af8"],
+
+Cell[TextData[{
+ "a) Poi\[SHacek]\[CHacek]i radij konvergence Tylorjeve vrste ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["f", "TI"], 
+         RowBox[{"(", 
+           StyleBox["x", "TI"], ")"}], "\[LongEqual]", 
+         FractionBox["1", 
+          RowBox[{"1", "+", 
+            SuperscriptBox[
+             StyleBox["x", "TI"], "2"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> "f(x)=\\frac{1}{1+x^2}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "5babeb76-1462-48f7-a0b1-7302dcf44eac"],
+ " okoli ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["x", "TI"], "\[LongEqual]", "0"}], TraditionalForm], 
+     "errors" -> {}, "input" -> "x=0", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "552d5cab-8a68-4dec-a091-fa9c7007abb6"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.952659404813117*^9, 
+  3.952659456299643*^9}},ExpressionUUID->"8387d7ea-be1a-4c25-aa69-\
+bf6ed79326b1"],
+
+Cell[TextData[{
+ "b) Dolo\[CHacek]ij konvergen\[CHacek]ni polmer vrste ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{
+            StyleBox["n", "TI"], "\[LongEqual]", "1"}], "\[Infinity]", 
+          LimitsPositioning -> True], 
+         FractionBox[
+          SuperscriptBox[
+           StyleBox["x", "TI"], 
+           StyleBox["n", "TI"]], 
+          StyleBox["n", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\sum_{n=1}^{\\infty}\\frac{x^n}{n}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "52ed1590-b921-46a2-ac6e-d4642d85d111"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.952659471628834*^9, 3.952659490157067*^9}, {
+   3.952659525482202*^9, 3.952659526428743*^9}, 
+   3.952659571992121*^9},ExpressionUUID->"e3035ac8-3f66-43cb-8613-\
+971dc85e9ecb"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1728, 1051},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c52555f4-7c33-4057-a739-3f84b1f18cf5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 149, 3, 98, "Title",ExpressionUUID->"9cab3877-f656-4f8c-a19d-96493344bbee"],
+Cell[732, 27, 154, 3, 35, "Text",ExpressionUUID->"bcdca604-445b-498b-b243-f04f53bb0b1d"],
+Cell[CellGroupData[{
+Cell[911, 34, 154, 3, 67, "Section",ExpressionUUID->"a304b859-6585-4a64-80cc-431d875249e1"],
+Cell[1068, 39, 1244, 32, 37, "Text",ExpressionUUID->"62462820-7688-4b06-909a-d3997a71fa9c"],
+Cell[2315, 73, 358, 8, 35, "Text",ExpressionUUID->"a3a12d39-a0c0-406f-a2b3-634c8599993e"],
+Cell[2676, 83, 590, 14, 35, "Text",ExpressionUUID->"b49351b0-1fe4-4b5e-b1a8-b42d0325091c"],
+Cell[3269, 99, 1225, 29, 37, "Text",ExpressionUUID->"4f659e49-f47e-4377-9daa-e4b8bf206980"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4531, 133, 154, 3, 67, "Section",ExpressionUUID->"e46c2761-ac13-4bbe-bd5d-ccc04e24d65e"],
+Cell[4688, 138, 691, 19, 37, "Text",ExpressionUUID->"73525f9b-87a9-41ca-adbe-e87cee0a8bfc"],
+Cell[5382, 159, 248, 4, 35, "Text",ExpressionUUID->"c986ba4b-8898-4093-835e-26b30f6ffe4a"],
+Cell[5633, 165, 177, 3, 35, "Text",ExpressionUUID->"b18c7f28-3772-4841-a276-49dcdf465bb5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5847, 173, 154, 3, 67, "Section",ExpressionUUID->"03211965-fe56-4593-9b4f-bd96f7fa66b2"],
+Cell[6004, 178, 801, 23, 37, "Text",ExpressionUUID->"e5e4d380-22a9-4834-ae40-9b72ae66391c"],
+Cell[6808, 203, 223, 5, 35, "Text",ExpressionUUID->"7fd42c72-c7fc-4a10-a7e3-ce904c48e4de"],
+Cell[7034, 210, 238, 6, 35, "Text",ExpressionUUID->"aa037729-4f22-49cc-9979-3f84c9f5e145"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7309, 221, 153, 3, 67, "Section",ExpressionUUID->"6c179239-79d0-4c5f-abb4-17065603a885"],
+Cell[7465, 226, 537, 13, 37, "Text",ExpressionUUID->"33f9bdce-c1dd-4b04-88a7-839810ddfc71"],
+Cell[8005, 241, 585, 15, 37, "Text",ExpressionUUID->"ceb9fb67-e1a3-4474-afea-a87f37ef6497"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8627, 261, 156, 3, 67, "Section",ExpressionUUID->"7e80d9ec-5998-4e1e-b31b-c2d5543c1af8"],
+Cell[8786, 266, 1077, 29, 53, "Text",ExpressionUUID->"8387d7ea-be1a-4c25-aa69-bf6ed79326b1"],
+Cell[9866, 297, 905, 23, 59, "Text",ExpressionUUID->"e3035ac8-3f66-43cb-8613-971dc85e9ecb"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
